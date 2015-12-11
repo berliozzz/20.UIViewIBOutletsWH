@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dhP-Di-OlA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ST2-qL-zhy" userLabel="ChessBoard">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="55W-0U-tkq" userLabel="Cell">
+                                        <rect key="frame" x="280" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="OeX-QV-kXj" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="OFy-Lj-pMt" userLabel="Cell">
+                                        <rect key="frame" x="200" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="YMj-Ru-oQr" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="M8a-FN-imz" userLabel="Cell">
+                                        <rect key="frame" x="120" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="4Ze-ug-gCT" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="mzK-vu-1ww" userLabel="Cell">
+                                        <rect key="frame" x="40" y="0.0" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="8O9-7I-9Hz" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="je3-Bd-08f" userLabel="Cell">
+                                        <rect key="frame" x="0.0" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="I9i-aa-Doq" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="6S9-wZ-Lwg" userLabel="Cell">
+                                        <rect key="frame" x="40" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="hFW-5b-SeA" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="kZS-dD-imB" userLabel="Cell">
+                                        <rect key="frame" x="0.0" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="fqL-uB-p07" userLabel="Cell">
+                                        <rect key="frame" x="40" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="BaC-Ou-shh" userLabel="Cell">
+                                        <rect key="frame" x="0.0" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="nHr-xS-sVl" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Sv0-m0-E0D" userLabel="Cell">
+                                        <rect key="frame" x="40" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="vXL-eo-VKh" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="gBx-zA-JmA" userLabel="Cell">
+                                        <rect key="frame" x="0.0" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="n9v-6C-t1H" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="BTj-mD-kZ0" userLabel="Cell">
+                                        <rect key="frame" x="80" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="CwY-bV-jl5" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="CGi-5y-s7Y" userLabel="Cell">
+                                        <rect key="frame" x="160" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="qHx-DU-mJr" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="XUM-Fh-rAt" userLabel="Cell">
+                                        <rect key="frame" x="240" y="40" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="ko2-C3-csM" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="G4c-Nq-zPB" userLabel="Cell">
+                                        <rect key="frame" x="120" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="nMY-SM-6kr" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="g4Y-dU-LKi" userLabel="Cell">
+                                        <rect key="frame" x="200" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="suX-TY-tBN" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="MtH-wy-EEF" userLabel="Cell">
+                                        <rect key="frame" x="280" y="80" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="nG3-Lk-YB9" userLabel="Cheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="1" green="0.3463694021" blue="0.34580786740000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Bcu-pa-m3M" userLabel="Cell">
+                                        <rect key="frame" x="80" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="8a1-98-JIA" userLabel="Cell">
+                                        <rect key="frame" x="160" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="UbD-c8-FVt" userLabel="Cell">
+                                        <rect key="frame" x="240" y="120" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="fjN-LF-Li8" userLabel="Cell">
+                                        <rect key="frame" x="120" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="fW4-w5-hXc" userLabel="Cell">
+                                        <rect key="frame" x="200" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="6cR-Pe-4P9" userLabel="Cell">
+                                        <rect key="frame" x="280" y="160" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Ybj-th-PfE" userLabel="Cell">
+                                        <rect key="frame" x="80" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="ETz-Us-bhc" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="OOw-AA-0uS" userLabel="Cell">
+                                        <rect key="frame" x="160" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="1GU-ag-Pd6" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="QfS-Rn-Qae" userLabel="Cell">
+                                        <rect key="frame" x="240" y="200" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="HnR-f5-Mde" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="y1O-6a-XPW" userLabel="Cell">
+                                        <rect key="frame" x="120" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="Vkj-6W-5nb" userLabel="WhiteCheker">
+                                                <rect key="frame" x="8" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Ar7-po-Kuw" userLabel="Cell">
+                                        <rect key="frame" x="280" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="3D8-G5-1qh" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="Br6-sH-J3O" userLabel="Cell">
+                                        <rect key="frame" x="200" y="240" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="LlI-EV-qZN" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="9ps-iA-ZRd" userLabel="Cell">
+                                        <rect key="frame" x="80" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="BX5-Mf-tg8" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="36J-sz-pOQ" userLabel="Cell">
+                                        <rect key="frame" x="160" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="ISk-GX-xbN" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="fmN-p3-jSy" userLabel="Cell">
+                                        <rect key="frame" x="240" y="280" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="t0T-io-j02" userLabel="WhiteCheker">
+                                                <rect key="frame" x="10" y="10" width="20" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="cellCollection" destination="mzK-vu-1ww" id="IQY-jF-HDE"/>
+                        <outletCollection property="cellCollection" destination="M8a-FN-imz" id="xnn-a9-MZP"/>
+                        <outletCollection property="cellCollection" destination="OFy-Lj-pMt" id="79z-Or-Q2B"/>
+                        <outletCollection property="cellCollection" destination="55W-0U-tkq" id="Uiv-hq-0lg"/>
+                        <outletCollection property="cellCollection" destination="je3-Bd-08f" id="FmW-Kp-dBd"/>
+                        <outletCollection property="cellCollection" destination="BTj-mD-kZ0" id="XET-Rl-Quv"/>
+                        <outletCollection property="cellCollection" destination="CGi-5y-s7Y" id="43h-pz-dCq"/>
+                        <outletCollection property="cellCollection" destination="XUM-Fh-rAt" id="IXr-QO-LTz"/>
+                        <outletCollection property="cellCollection" destination="6S9-wZ-Lwg" id="KPr-5n-Zp3"/>
+                        <outletCollection property="cellCollection" destination="G4c-Nq-zPB" id="lZA-Lb-uy2"/>
+                        <outletCollection property="cellCollection" destination="g4Y-dU-LKi" id="dMp-sg-QQQ"/>
+                        <outletCollection property="cellCollection" destination="MtH-wy-EEF" id="xQB-Hg-r7o"/>
+                        <outletCollection property="cellCollection" destination="kZS-dD-imB" id="msb-AS-8cb"/>
+                        <outletCollection property="cellCollection" destination="Bcu-pa-m3M" id="tvj-sZ-ZlS"/>
+                        <outletCollection property="cellCollection" destination="8a1-98-JIA" id="hRK-A2-OiG"/>
+                        <outletCollection property="cellCollection" destination="UbD-c8-FVt" id="lWs-kF-wz3"/>
+                        <outletCollection property="cellCollection" destination="fqL-uB-p07" id="5Ax-HH-hpN"/>
+                        <outletCollection property="cellCollection" destination="fjN-LF-Li8" id="tMx-Sq-vry"/>
+                        <outletCollection property="cellCollection" destination="fW4-w5-hXc" id="zT2-ak-mij"/>
+                        <outletCollection property="cellCollection" destination="6cR-Pe-4P9" id="Sd9-oN-zVB"/>
+                        <outletCollection property="cellCollection" destination="BaC-Ou-shh" id="FGR-c7-2yh"/>
+                        <outletCollection property="cellCollection" destination="Ybj-th-PfE" id="JNb-SS-4aU"/>
+                        <outletCollection property="cellCollection" destination="OOw-AA-0uS" id="Lns-Kr-M38"/>
+                        <outletCollection property="cellCollection" destination="QfS-Rn-Qae" id="YrR-6h-h3N"/>
+                        <outletCollection property="cellCollection" destination="Sv0-m0-E0D" id="3JA-Mh-d5N"/>
+                        <outletCollection property="cellCollection" destination="y1O-6a-XPW" id="xz3-Bf-sQg"/>
+                        <outletCollection property="cellCollection" destination="Br6-sH-J3O" id="yFv-gO-maI"/>
+                        <outletCollection property="cellCollection" destination="Ar7-po-Kuw" id="VlM-Jf-nub"/>
+                        <outletCollection property="cellCollection" destination="gBx-zA-JmA" id="ze8-pt-sTi"/>
+                        <outletCollection property="cellCollection" destination="9ps-iA-ZRd" id="qXR-1y-Wga"/>
+                        <outletCollection property="cellCollection" destination="36J-sz-pOQ" id="HI4-41-Lry"/>
+                        <outletCollection property="cellCollection" destination="fmN-p3-jSy" id="Wb0-Fa-YQc"/>
+                        <outletCollection property="checkerCollection" destination="8O9-7I-9Hz" id="W1t-gI-B5U"/>
+                        <outletCollection property="checkerCollection" destination="4Ze-ug-gCT" id="GcW-Lg-EXG"/>
+                        <outletCollection property="checkerCollection" destination="YMj-Ru-oQr" id="kKK-ia-tsc"/>
+                        <outletCollection property="checkerCollection" destination="OeX-QV-kXj" id="nlg-9c-jye"/>
+                        <outletCollection property="checkerCollection" destination="I9i-aa-Doq" id="dee-cI-X0B"/>
+                        <outletCollection property="checkerCollection" destination="CwY-bV-jl5" id="vpd-Gu-alQ"/>
+                        <outletCollection property="checkerCollection" destination="qHx-DU-mJr" id="jY5-YV-k10"/>
+                        <outletCollection property="checkerCollection" destination="ko2-C3-csM" id="klX-pZ-HsI"/>
+                        <outletCollection property="checkerCollection" destination="hFW-5b-SeA" id="urB-GP-oeF"/>
+                        <outletCollection property="checkerCollection" destination="nMY-SM-6kr" id="5Dh-RD-COZ"/>
+                        <outletCollection property="checkerCollection" destination="suX-TY-tBN" id="mm1-bH-aKi"/>
+                        <outletCollection property="checkerCollection" destination="nG3-Lk-YB9" id="MZR-2r-xg1"/>
+                        <outletCollection property="checkerCollection" destination="nHr-xS-sVl" id="pMb-AW-g46"/>
+                        <outletCollection property="checkerCollection" destination="ETz-Us-bhc" id="WFf-9q-yN4"/>
+                        <outletCollection property="checkerCollection" destination="1GU-ag-Pd6" id="5xJ-v9-Dzd"/>
+                        <outletCollection property="checkerCollection" destination="HnR-f5-Mde" id="oiS-MN-9UD"/>
+                        <outletCollection property="checkerCollection" destination="vXL-eo-VKh" id="3FW-rM-3K3"/>
+                        <outletCollection property="checkerCollection" destination="Vkj-6W-5nb" id="XaZ-Vl-hHs"/>
+                        <outletCollection property="checkerCollection" destination="LlI-EV-qZN" id="EsI-ks-RKQ"/>
+                        <outletCollection property="checkerCollection" destination="3D8-G5-1qh" id="u6s-8i-HX3"/>
+                        <outletCollection property="checkerCollection" destination="n9v-6C-t1H" id="Wk5-i3-jiA"/>
+                        <outletCollection property="checkerCollection" destination="BX5-Mf-tg8" id="CB1-u8-Rbd"/>
+                        <outletCollection property="checkerCollection" destination="ISk-GX-xbN" id="kDM-Dl-2jd"/>
+                        <outletCollection property="checkerCollection" destination="t0T-io-j02" id="AEq-oq-NAX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="307"/>
+        </scene>
+    </scenes>
+</document>
